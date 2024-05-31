@@ -6,7 +6,7 @@
     height: 4em;
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 992px) {
     header {
         width: 80vw;
         margin-left: 11vw;
@@ -14,7 +14,7 @@
     }
 }
 
-@media (min-width: 601px) and (max-width:1024px) {
+@media (min-width: 601px) and (max-width:991px) {
 
     .navbar-nav .nav-item {
         margin-left: 2em;
