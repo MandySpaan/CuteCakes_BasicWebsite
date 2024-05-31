@@ -99,15 +99,15 @@ main {
     }
 
     #main-about h1 {
-        font-size: 3em;
+        font-size: 2.8em;
     }
 
     #main-about h2 {
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
 
     #main-about p {
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     #main-about .italic {
