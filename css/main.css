@@ -1,0 +1,57 @@
+main {
+    background-color: #EF0993;
+    height: 30em;
+    width: 100vw;
+    display: flex;
+}
+
+#main-about {
+    width: 30em;
+    padding: 2em;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#this-month {
+    background-color: white;
+    width: 15em;
+    margin: 1em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 1em 1em 0 0;
+}
+
+#this-month img {
+    width: 100%;
+
+    border-radius: 1em 1em 0 0;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+#this-month p {
+    font-size: 1em;
+}
+
+@media (min-width: 1025px) {
+    main {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+}

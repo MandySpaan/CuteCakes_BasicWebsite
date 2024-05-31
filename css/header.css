@@ -1,0 +1,95 @@
+header {
+    height: 5em;
+
+    display: flex;
+    align-items: center;
+}
+
+#header-logo {
+    height: 5em;
+}
+
+#header-logo img{
+    height: 100%;
+}
+
+nav {
+    width: 85vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+
+    padding-top: 1em;
+}
+
+nav ul li {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+nav ul li a {
+    color: #EF0993;
+    text-shadow: 0.1em 0.1em 0.2em white;
+
+    padding: 0.5em 1em;
+
+    border-radius: 2em;
+}
+
+nav ul li a:hover {
+    background-color: #EF0993;
+    color: white;
+
+    text-decoration: none;
+}
+
+@media (min-width: 1025px) {
+    header {
+        width: 80vw;
+        margin-left: 9vw;
+        margin-right: 11vw;
+    }
+}
+
+@media (min-width: 630px) and (max-width:1024px) {
+    header {
+        width: 100vw;
+    }
+
+    /* HIER NOG NAAR KIJKEN */
+    #header-logo{
+        width: 15vw;
+    }
+}
+
+@media (max-width: 631px) {
+    header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav {
+        width: 100%;
+        margin-top: -0.5em;
+        margin-bottom: -0.5em;
+    }
+
+    nav ul {
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+
+        font-size: 1.2em;
+    }
+}
+
+
+
