@@ -14,3 +14,14 @@
 .scale-horizontal {
     width: 100%;
 }
+
+.cupcake-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cupcake-text p {
+    text-align: center;
+}
