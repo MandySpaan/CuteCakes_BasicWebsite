@@ -6,3 +6,11 @@ main {
     align-items: center;
     justify-content: center;
 }
+
+a {
+    color: #fcbbe2;
+}
+
+a:hover {
+    color: white;
+}

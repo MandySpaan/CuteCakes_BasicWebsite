@@ -8,7 +8,10 @@
 }
 
 #menu-text {
-    margin: 2em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+
+    text-align: center;
 }
 
 .scale-horizontal {
@@ -23,5 +26,14 @@
 }
 
 .cupcake-text p {
+    text-align: center;
+}
+
+#prices {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+
+    max-width: 44em;
+
     text-align: center;
 }
