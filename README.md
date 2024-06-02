@@ -61,7 +61,7 @@ This is the main landing page for CuteCakes. It includes:
 
 ### `menu.html`
 
-This page lists the available cupcakes, each with an image and description. It also includes the pricing information.
+This page lists the available cupcakes, each with an image and description. It also includes prices.
 
 ### `contact.html`
 
