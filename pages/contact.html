@@ -65,41 +65,58 @@
       </nav>
     </header>
     <main>
-      <h3>
-        <div class="contact-form">
-          <h2>Contact Us - CuteCakes</h2>
-          <form action="/submit_form" method="post">
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name" required />
-            </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" required />
-            </div>
-            <div class="form-group">
-              <label for="inquiry-type">Inquiry Type</label>
-              <select id="inquiry-type" name="inquiry-type" required>
-                <option value="">Select an option</option>
-                <option value="order">Order Inquiry</option>
-                <option value="feedback">Feedback</option>
-                <option value="general">General Question</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="subject">Subject</label>
-              <input type="text" id="subject" name="subject" required />
-            </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" required></textarea>
-            </div>
-            <div class="form-group">
-              <button type="submit">Send Message</button>
-            </div>
-          </form>
+      <div id="contact-info">
+        <div class="contact-field" id="social-media">
+          <h2>Find us on</h2>
+          <div id="insta">Instagram</div>
+          <div id="Facebook">Facebook</div>
+          <div id="Twitter">X</div>
+          <div id="LinkedIn">LinkedIn</div>
         </div>
-      </h3>
+        <div class="contact-field" id="phone number">
+          <h2>Phone number</h2>
+          <div id="phone-number">Phone number</div>
+          <div id="available-times">available times</div>
+        </div>
+        <div class="contact-field" id="certificates">
+          <h2>Certificates</h2>
+          <div id="SQF">SQF Safe quality food</div>
+          <div id="green-business">Green business certificate</div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <h2>Contact Us - CuteCakes</h2>
+        <form action="/submit_form" method="post">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="inquiry-type">Inquiry Type</label>
+            <select id="inquiry-type" name="inquiry-type" required>
+              <option value="">Select an option</option>
+              <option value="order">Order Inquiry</option>
+              <option value="feedback">Feedback</option>
+              <option value="general">General Question</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
     </main>
     <footer>
       <p>&copy; 2024 CuteCakes. All rights reserved.</p>

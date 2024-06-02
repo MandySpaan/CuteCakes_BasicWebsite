@@ -1,11 +1,26 @@
+main {
+    justify-content: space-around;
+}
+
+/* Contact info */
+
+.contact-field {
+    background-color: #FFE7FF;
+    border-radius: 0.5em;
+    margin: 1em;
+    padding: 1em;
+}
+
+/* Contact Form */
+
 .contact-form {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
+    max-width: 25em;
+    margin:  1em;
+    padding: 1em;
     background-color: #ffffff;
-    border: 1px solid #dee2e6;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 0.1em solid #dee2e6;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
 }
 .contact-form h2 {
     text-align: center;
