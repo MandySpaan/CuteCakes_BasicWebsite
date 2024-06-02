@@ -9,6 +9,7 @@ main {
     border-radius: 0.5em;
     margin: 1em;
     padding: 1em;
+    margin-bottom: 2.3em;
 }
 
 .social-left, .social-right {
@@ -48,6 +49,9 @@ p {
     margin: 0;
 }
 
+#phone-number {
+    margin-bottom: 0.5em;
+}
 
 
 /* Contact Form */
