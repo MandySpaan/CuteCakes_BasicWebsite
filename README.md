@@ -73,7 +73,13 @@ These two pages do not contain content yet. They were not part of the requiereme
 
 ## CSS Descriptions
 
-STILL NEED TO WRITE
+I tried to add structure and a clear overview of the css files by organizing the code chronologically within each file and by linking the css files to each html page as followed:
+
+- body.css
+- header.css
+- main.css
+- [current-page].css
+- footer.css
 
 ## External Libraries
 
@@ -87,4 +93,24 @@ The external CSS and JS files are linked in the HTML files using CDNs.
 
 ## Points of improvement
 
-STILL NEED TO WRITE
+### Overall
+
+- Add the content for location.html and about.html
+- Make the layout more visually appealing
+- Finetune the responsive design
+
+### `index.html`
+
+- Add more sections:
+  - News like a new location opened and a link to the locations page
+  - A preview and link to the about page
+
+### `menu.html`
+
+- Finetune the layout of the menu container
+- Include the cupcake of the month
+
+### `contact.html`
+
+- Find a way to not have the option of scrolling down only because the footer is there
+- Make the layout for desktop more visually appealing
