@@ -12,6 +12,8 @@ main {
     h2 {
         text-align: center;
         }
+
+    p {text-align: center;}
 }
 
 /* Contact info */
@@ -27,32 +29,37 @@ main {
 .social-left, .social-right {
     display: flex;
     flex-direction: row;
+    align-items: center;
+
     border-style: solid;
     border-color: #ced4da;
     border-radius: 0.5em;
     border-width: 0.05em;
 
     padding: 0.5em;
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.5em;
 }
 
 .social-left {
     img {
         width: 3em;
         height: 3em;
-        margin-top: 0.3em;
-        margin-right: 1em;
+        margin-right: 0.5em;
     }
 }
 
 .social-right {
+    justify-content: end;
+    width: 100%;
+
+    p {
+        margin-right: 0.3em;
+    }
+
     img {
         width: 3em;
         height: 3em;
-        margin-top: 0.3em;
-        margin-left: auto;
+        margin-left: 0.3em;
         margin-right: 0.1em;
     }
 }
