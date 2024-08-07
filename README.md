@@ -1,6 +1,6 @@
 # CuteCakes Website 
 
-Welcome to the CuteCakes project. This is my very first project as an assignment for the Bootcamp Full Stack Developer course by GeeksHubs. Please don't judge the looks of it hahah, this project's aim was to dive into the functionality and practice the very basics of HTML and CSS.
+Welcome to the CuteCakes project. This is my very first project as an assignment for the Bootcamp Full Stack Developer course by GeeksHubs. The project's aim was to dive into the functionality and practice the very basics of HTML and CSS.
 
 ## Project Structure
 
