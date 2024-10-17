@@ -37,7 +37,7 @@ The project consists of the following main files and directories:
 
 ## How to Use
 
-You can view the website simply by following the link: https://mandyspaan.github.io/GH_P1_CuteCakes/
+You can view the website simply by following the link: [mandyspaan.github.io/CuteCakes_BasicWebsite](https://mandyspaan.github.io/CuteCakes_BasicWebsite/)
 
 Or by cloning the repository to your device:
 
